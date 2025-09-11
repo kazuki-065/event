@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>イベント情報 - カレー・コーヒー・タイマッサージ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">イベント情報</h1>
+                <ul class="nav-menu">
+                    <li><a href="#massage">タイマッサージ</a></li>
+                    <li><a href="#food">グルメ体験</a></li>
+                    <li><a href="#schedule">スケジュール</a></li>
+                    <li><a href="#vendors">出店者紹介</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+                <input type="checkbox" id="hamburger-toggle" class="hamburger-toggle">
+                <label for="hamburger-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ヒーローセクション -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">高知県合同イベント</h1>
+                <p class="hero-subtitle">高知県内の4店舗が集結！タイマッサージ、整体、スパイスカレー、コーヒーを一度に体験できる特別な一日</p>
+                <a href="#events" class="cta-button">イベントを見る</a>
+            </div>
+            <div class="hero-background"></div>
+        </section>
+
+        <!-- イベントセクション -->
+        <section class="events" id="events">
+            <div class="container">
+                <h2 class="section-title">高知県4店舗合同イベント</h2>
+                
+                <!-- タイマッサージ体験 -->
+                <div class="event-card" id="massage">
+                    <div class="event-image">
+                        <i class="fas fa-spa event-icon"></i>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">高知県4店舗合同イベント</h3>
+                        <p class="event-description">
+                            高知県内の人気店4店舗が集結した特別な合同イベントです。
+                            タイ古式サロン〜凪〜のマッサージ、Body care salon Ma'niの整体ケア、スパイスカレー カルダモンの本格カレー、SETAGAYA COFFEE STOPのこだわりコーヒーを一度に体験できます。
+                            高知県の魅力をたっぷりと感じられる特別な一日をお過ごしください。
+                        </p>
+                        <div class="event-details">
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>2024年10月13日（月・祝）スポーツの日</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>10:00 - 17:00</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>高知県高知市 イベント会場（詳細はお問い合わせください）</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-yen-sign"></i>
+                                <span>¥8,500（マッサージ＋整体＋お食事込み）</span>
+                            </div>
+                        </div>
+                        <button class="event-button">参加申し込み</button>
+                    </div>
+                </div>
+
+                <!-- グルメ体験詳細 -->
+                <div class="event-card" id="food">
+                    <div class="event-image">
+                        <i class="fas fa-utensils event-icon"></i>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">グルメ＆ケア体験メニュー</h3>
+                        <p class="event-description">
+                            高知県内の4店舗が提供する、こだわりのサービスとグルメメニューをご用意しています。
+                            各店舗の特色を生かしたサービスで、高知県の魅力をたっぷりと体験できます。
+                        </p>
+                        <div class="food-menu">
+                            <div class="menu-item">
+                                <i class="fas fa-pepper-hot"></i>
+                                <div>
+                                    <h4>本格スパイスカレー</h4>
+                                    <p>スパイスカレー カルダモン - 鱰・昆布・いりこの和だしベースのモルディブ風カレー</p>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <i class="fas fa-coffee"></i>
+                                <div>
+                                    <h4>スペシャルティコーヒー</h4>
+                                    <p>SETAGAYA COFFEE STOP - 土佐山田の隠れ家アンティークカフェのこだわりコーヒー</p>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <i class="fas fa-hands"></i>
+                                <div>
+                                    <h4>整体ケア</h4>
+                                    <p>Body care salon Ma'ni（マウニ） - 体のバランスを整える専門的な整体ケア</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-details">
+                            <div class="detail-item">
+                                <i class="fas fa-info-circle"></i>
+                                <span>すべてマッサージ＆整体体験料金に含まれています</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- スケジュール -->
+                <div class="event-card" id="schedule">
+                    <div class="event-image">
+                        <i class="fas fa-clock event-icon"></i>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">当日のスケジュール</h3>
+                        <p class="event-description">
+                            一日を通してリラックスしていただけるよう、ゆったりとしたスケジュールをご用意しています。
+                            お好きなタイミングでマッサージとお食事をお楽しみください。
+                        </p>
+                        <div class="schedule-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-time">10:00 - 10:30</div>
+                                <div class="timeline-content">
+                                    <h4>受付・ウェルカムドリンク</h4>
+                                    <p>到着後、ハーブティーでお迎えします</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-time">10:30 - 12:00</div>
+                                <div class="timeline-content">
+                                    <h4>第1回 タイマッサージ体験</h4>
+                                    <p>タイ古式サロン〜凪〜による本格的なタイ古式マッサージ</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-time">12:00 - 13:30</div>
+                                <div class="timeline-content">
+                                    <h4>ランチタイム</h4>
+                                    <p>スパイスカレー カルダモンの本格モルディブ風カレー</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-time">13:30 - 15:00</div>
+                                <div class="timeline-content">
+                                    <h4>整体ケア体験</h4>
+                                    <p>Body care salon Ma'niによる専門的な整体ケア</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-time">15:00 - 17:00</div>
+                                <div class="timeline-content">
+                                    <h4>カフェタイム＆自由時間</h4>
+                                    <p>SETAGAYA COFFEE STOPのコーヒーとくつろぎの時間</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 出店者紹介セクション -->
+        <section class="vendors" id="vendors">
+            <div class="container">
+                <h2 class="section-title">出店者紹介</h2>
+                <div class="vendor-grid">
+                    <div class="vendor-card">
+                        <div class="vendor-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h3>タイ古式サロン〜凪〜</h3>
+                        <p>高知市東石立町にある慢性疲労・慢性痛専門のタイマッサージサロン。代表の山本和樹さんはタイ政府文部省認定タイマッサージセラピストの養成も実施。</p>
+                    </div>
+                    <div class="vendor-card">
+                        <div class="vendor-icon">
+                            <i class="fas fa-pepper-hot"></i>
+                        </div>
+                        <h3>スパイスカレー カルダモン</h3>
+                        <p>高知市北本町に、2024年6月にオープンしたモルディブ風創作スパイスカレー店。鱰・昆布・いりこなど和のだしをベースにした食べやすいスパイスカレーを提供。</p>
+                    </div>
+                    <div class="vendor-card">
+                        <div class="vendor-icon">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                        <h3>SETAGAYA COFFEE STOP</h3>
+                        <p>香美市土佐山田町に、2019年にオープンした隠れ家的アンティークカフェ。看板がなく、隣にたばこ屋さんがある隠れ家で、コーヒーとサンドイッチを提供。</p>
+                    </div>
+                    <div class="vendor-card">
+                        <div class="vendor-icon">
+                            <i class="fas fa-hands"></i>
+                        </div>
+                        <h3>Body care salon Ma'ni（マウニ）</h3>
+                        <p>南国市下島にあるパーソナルトレーナー兼業のボディケアサロン。体のバランスを整える専門的な整体ケアで、筋肉の緊張をほぐし姿勢改善や痛みの緩和をサポート。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- お問い合わせセクション -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">お問い合わせ</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>イベントに関するお問い合わせ</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>03-1234-5678</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@events.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>平日 9:00 - 18:00</span>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">お名前</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">メールアドレス</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="event">参加希望</label>
+                            <select id="event" name="event">
+                                <option value="">選択してください</option>
+                                <option value="full-experience">タイマッサージ＆グルメ体験（フルコース）</option>
+                                <option value="massage-only">タイマッサージのみ</option>
+                                <option value="food-only">グルメ体験のみ</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">メッセージ</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">送信する</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 イベント情報. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
