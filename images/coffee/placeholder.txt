@@ -1,0 +1,10 @@
+SETAGAYA COFFEE STOPメニュー写真用フォルダ
+
+こちらにSETAGAYA COFFEE STOPのメニュー写真を配置してください：
+- setagaya-coffee-1.jpg（コーヒーの写真）
+- setagaya-sandwich-1.jpg（サンドイッチの写真）
+- setagaya-interior-1.jpg（店内の写真）
+
+推奨サイズ: 横長（16:9または4:3比率）
+形式: JPG
+解像度: 800x600px以上推奨

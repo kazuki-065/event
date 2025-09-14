@@ -1,0 +1,9 @@
+ロゴ画像用フォルダ
+
+各店舗のロゴ画像をこちらに配置してください：
+- nagi-logo.png (タイ古式サロン〜凪〜)
+- cardamon-logo.png (スパイスカレー カルダモン)
+- setagaya-logo.png (SETAGAYA COFFEE STOP)
+
+推奨サイズ: 200x200px (正方形)
+形式: PNG (透明背景推奨)
