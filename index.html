@@ -475,60 +475,17 @@
                             <p><i class="fas fa-clock"></i> 最終受付は14:00となります。</p>
                         </div>
                     </div>
-                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" class="contact-form">
-                        <input type="hidden" name="form-name" value="contact">
-                        <p style="display:none;">
-                            <label>Don’t fill this out: <input name="bot-field" /></label>
+                    <div class="contact-form" style="border: 1px dashed #ccc; padding: 1.25rem; border-radius: 8px; background: #fafafa;">
+                        <p style="margin: 0 0 0.75rem 0;"><i class="fas fa-info-circle"></i> 本サイトでは予約受付を行っておりません。</p>
+                        <p style="margin: 0 0 0.75rem 0;">ご予約・お問い合わせは、以下のいずれかからお願いいたします。</p>
+                        <ul style="margin: 0 0 0.75rem 1.25rem;">
+                            <li>各店舗の Instagram DM</li>
+                            <li>メール: <a href="mailto:beginningfitness.kazuki@gmail.com">beginningfitness.kazuki@gmail.com</a></li>
+                        </ul>
+                        <p style="font-size: 0.9rem; color: #666; margin: 0;">
+                            ※ 当日受付も可能ですが、混雑状況によりお待ちいただく場合があります。
                         </p>
-                        <div class="form-group">
-                            <label for="name">お名前</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">メールアドレス</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">電話番号</label>
-                            <input type="tel" id="phone" name="phone" placeholder="090-1234-5678">
-                        </div>
-                        <div class="form-group">
-                            <label for="massage-type">マッサージメニュー</label>
-                            <select id="massage-type" name="massage-type" required>
-                                <option value="">選択してください</option>
-                                <option value="15min">部分マッサージ（15分）¥1,500</option>
-                                <option value="30min">部分マッサージ（30分）¥3,000</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="preferred-time">希望時間帯（最終受付14:00）</label>
-                            <select id="preferred-time" name="preferred-time">
-                                <option value="">選択してください</option>
-                                <option value="10:00">10:00〜</option>
-                                <option value="10:15">10:15〜</option>
-                                <option value="10:30">10:30〜</option>
-                                <option value="10:45">10:45〜</option>
-                                <option value="11:00">11:00〜</option>
-                                <option value="11:15">11:15〜</option>
-                                <option value="11:30">11:30〜</option>
-                                <option value="11:45">11:45〜</option>
-                                <option value="12:00">12:00〜</option>
-                                <option value="12:15">12:15〜</option>
-                                <option value="12:30">12:30〜</option>
-                                <option value="12:45">12:45〜</option>
-                                <option value="13:00">13:00〜</option>
-                                <option value="13:15">13:15〜</option>
-                                <option value="13:30">13:30〜</option>
-                                <option value="13:45">13:45〜</option>
-                                <option value="14:00">14:00〜</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="concerns">気になる箇所・ご要望</label>
-                            <textarea id="concerns" name="concerns" rows="4" placeholder="肩こり、腰痛、その他気になる箇所やご要望をお聞かせください"></textarea>
-                        </div>
-                        <button type="submit" class="submit-button">タイマッサージ予約申し込み</button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>
