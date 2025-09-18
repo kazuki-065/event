@@ -473,10 +473,13 @@
                         <div class="contact-note">
                             <p><i class="fas fa-info-circle"></i> タイマッサージは事前予約をおすすめします。当日受付も可能ですが、お待ちいただく場合があります。</p>
                             <p><i class="fas fa-clock"></i> 最終受付は14:00となります。</p>
-</invoke>
                         </div>
                     </div>
-                    <form class="contact-form">
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" class="contact-form">
+                        <input type="hidden" name="form-name" value="contact">
+                        <p style="display:none;">
+                            <label>Don’t fill this out: <input name="bot-field" /></label>
+                        </p>
                         <div class="form-group">
                             <label for="name">お名前</label>
                             <input type="text" id="name" name="name" required>
